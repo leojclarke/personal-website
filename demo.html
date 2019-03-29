@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Leo Clarke | Noobie Web Dev</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    </head>
+
+    <body class="container show-grid">
+
+        <main class="container p-3">
+            <h3 class="mb-4">Resize your screen</h3>
+
+            <!--  Different behavior on different screen sizes  -->
+            <div class="row mb-5">
+                <div class="col col-sm-3 col-md-6">
+                    <section class="bg-info p-3"></section>
+                </div>
+                <div class="col col-sm-9 offset-md-3 col-md-3">
+                    <section class="bg-info p-3"></section>
+                </div>
+            </div>
+
+            <!--  Show and hide things responsively -->
+            <div class="row mb-5">
+                <div class="col">
+                    <section class="bg-info p-3">I stay</section>
+                </div>
+                <div class="col">
+                    <section class="bg-warning d-md-none p-3">small to medium</section>
+                    <section class="bg-success d-none d-md-block d-lg-none p-3">big
+                        screens</section>
+                </div>
+            </div>
+
+            <!--  
+      Use just margin-right, if you want your content
+      not to grow on resize: -->
+            <div class="mb-5">
+                <button class="mr-4 btn btn-success">I stay the same</button>
+                <button class="mr-4 btn btn-success">No worry</button>
+                <button class="mr-4 btn btn-success">Resize to check</button>
+            </div>
+
+            <!--  Using d-flex -->
+            <div class="d-flex justify-content-between">
+                <button class="btn btn-primary">Foo</button>
+                <button class="btn btn-primary">Bar</button>
+                <button class="btn btn-primary">Baz</button>
+                <button class="btn btn-primary">Foobar</button>
+            </div>
+        </main>
+
+    </body>
