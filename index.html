@@ -19,7 +19,19 @@
     * {
       font-family: Roboto;
       }
-    
+      
+      .btn-outline-papaya {
+      border-color: papayawhip;
+      color: papayawhip;
+      }
+
+      .btn-outline-papaya:hover {
+      background-color: papayawhip;
+      }
+
+      .nav-item-papaya {
+        color:papayawhip;
+      }
 
     </style>
   </head>
@@ -27,17 +39,19 @@
   <body class="container">
 
     <header id="header" class="row mt-3 mb-3 d-flex">
-      <div class="col-sm col-md-5">
-        <h1 class="h1" style="font-family: Roboto Slab; font-weight: bold">Leo
-          Clarke</h1>
+      <div class="col-sm col-md-5 d-flex
+        justify-content-md-start">
+        <h1 class="h1" style="font-family: Roboto Slab; font-weight: bold">
+          Leo Clarke</h1>
       </div>
       <div class="col-sm col-md-7" style="padding-right: 0px">
-        <ul class="nav justify-content-sm-end">
-          <li class="nav-item btn btn-light mx-1">
+        <ul class="nav d-flex justify-content-start
+          justify-content-md-end">
+          <li class="nav-item-papaya btn btn-outline-papaya mx-1">
             <a class="nav-link" href="#contact"><i class="fas fa-at"></i>
               CONTACT</a>
           </li>
-          <li class="nav-item btn btn-light mx-1">
+          <li class="nav-item btn btn-outline-papaya mx-1">
             <a class="nav-link" href="#bio"><i class="far fa-address-card"></i>
               BIO</a>
           </li>
@@ -116,6 +130,11 @@
     </div>
 -->
 
+
+
+
+
+    <!--
     <div class="row mb-4 text-center d-flex justify-content-center
       shadow-sm">
       <div class="col-sm col-md-4">
@@ -156,6 +175,7 @@
       </div>
     </div>
 
+    -->
     <div class="row d-flex flex-sm-column flex-md-row
       justify-content-between
       m-1"
@@ -164,6 +184,7 @@
         flex-sm-start
         flex-md-wrap col-sm-12 col-md-6"
         id="about me">
+
         <!-- todo umbruch in md erst nach Zitat? -->
         <div id="about-me" class="mr-md-3">
           <h2 class="h2">about me</h2>
