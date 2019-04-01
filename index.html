@@ -5,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leo Clarke | Noobie Web Dev</title>
-
     <link rel="stylesheet" href="css/bootstrap.css">
-
-
   </head>
 
   <body class="container">
 
-
-    <header class="row mt-3 mb-3 d-flex">
+    <header id="header" class="row mt-3 mb-3 d-flex">
       <div class="col-sm col-md-5">
         <h1 class="h1">Leo Clarke</h1>
       </div>
       <div class="col-sm col-md-7" style="padding-right: 0px">
         <ul class="nav justify-content-sm-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#kontakt">Kontakt</a>
+          <li class="nav-item btn-light mx-1">
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#bio">Biografie</a>
+          <li class="nav-item btn-light mx-1">
+            <a class="nav-link" href="#bio">BIO</a>
           </li>
         </ul>
       </div>
@@ -33,31 +29,30 @@
 
     <section class="row mt-3 mb-3 d-flex">
 
-      <div class="col-sm col-md-5 border">
-        <img class="img-fluid shadow-sm mb-2"
+      <div class="col-sm-12 col-md-5">
+        <img class="img-fluid shadow-sm mb-2 img-thumbnail"
           src="/img/leo clarke - wedding head shot.jpg"
-          alt="placeholder bio photo">
+          alt="bio photo">
 
-        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Consequuntur
-          praesentium pariatur consectetur incidunt, laborum ratione est rerum
-          fugit sit dicta dolorem a eius quis ad voluptatibus. Ab expedita cum
-          cumque?</p>
+        <p class="mb-5">Hi, my name is Leo.
+          I'm a noobie web developer from Hamburg, Germany.
+          Find out more about me <a href="#bio">here</a>.
+          I would love to <a href="#contact">connect</a> with you!
+        </p>
       </div>
 
-
-      <div class="col-sm col-md-7">
-        <h3>my skills</h3>
+      <div id="skills" class="col-sm-12 col-md-7">
+        <h4>my skills</h4>
 
         <ul style="padding-left: 0%">
           <li class="btn btn-warning mb-3">HTML</li>
+          <li class="btn btn-warning mb-3">CSS</li>
           <li class="btn btn-warning mb-3">JS</li>
-          <li class="btn btn-warning mb-3">MFG</li>
-          <li class="btn btn-warning mb-3">LS</li>
-          <li class="btn btn-warning mb-3">SQUARE</li>
+          <li class="btn btn-warning mb-3">Bootstrap</li>
+          <li class="btn btn-warning mb-3">WordPress</li>
         </ul>
 
-        <h3>my hobbies</h3>
+        <h4>my hobbies</h4>
         <ul style="padding-left: 0%">
           <li class="btn btn-primary mb-3">swimming</li>
           <li class="btn btn-primary mb-3">jogging</li>
@@ -68,8 +63,18 @@
 
     </section>
 
+    <section id="contact" class="row btn-light pt-3 pb-2 mb-5 shadow-sm">
+      <p class="col-sm-12 col-md-2">phone: </p>
+      <p class="col-sm-12 col-md-4"><a href="tel:0152-33662260">0152-11 22 334</a></p>
+      <p class="col-sm-12 col-md-2">email: </p>
+      <p class="col-sm-12 col-md-4"><a href="mailto:leojclarke@gmail.com">leo@leojclarke.de</a></p>
+    </section>
 
-    <div class="row d-flex flex-md-row flwex-column mb-3 border bg-light
+
+    <!--
+
+    <div id="contact" class="row d-flex flex-md-row flex-column mb-3 border
+      bg-light
       shadow-sm">
 
       <div class="col">
@@ -80,7 +85,7 @@
       </div>
 
     </div>
-    <!--
+
     <div class="row d-flex d-md-block card-body border mb-3 shadow-sm bg-dark">
       <div class="col-md">
         <h5 class="h4 text-light">telephone: 040/123 45 67</h5>
@@ -91,44 +96,109 @@
       </div>
     </div>
 -->
+
     <div class="row mb-4 text-center d-flex justify-content-center
       shadow-sm">
-      <div class="col-sm col-md-4 border">
-        <figure class="w-33">
-          <img class="mw-100" src="/img/GitHub_Logo.png"
-            alt="github">
-
-          <figcaption class="card-header">
-            <h5 class="my-0 font-weight-normal">GitHub</h5>
-          </figcaption>
-        </figure>
+      <div class="col-sm col-md-4">
+        <a href="https://github.com/leojclarke">
+          <figure class="w-33">
+            <img class="mw-100" src="/img/github-sqr.png"
+              alt="github">
+            <figcaption class="card-header">
+              <h5 class="my-0 font-weight-normal">GitHub</h5>
+            </figcaption>
+          </figure></a>
       </div>
 
-      <div class="col-sm col-md-4 border">
-        <figure class="w-33">
-          <img class="mw-100" src="/img/codepen_project-940x400.jpg"
-            alt="codepen">
+      <div class="col-sm col-md-4">
+        <a href="https://codepen.io/leojclarke/">
+          <figure class="w-33">
+            <img class="mw-100" src="/img/codepen-sqr.png"
+              alt="codepen">
 
-          <figcaption class="card-header">
-            <h5 class="my-0 font-weight-normal">CodePen</h5>
-          </figcaption> </f>
+            <figcaption class="card-header">
+              <h5 class="my-0 font-weight-normal">CodePen</h5>
+            </figcaption>
+          </figure>
+        </a>
       </div>
 
-      <div class="col-sm col-md-4 border">
-        <figure class="w-33">
-          <img class="mw-100" src="/img/1000px-LinkedIn_Logo.svg.png"
-            alt="linkedin">
+      <div class="col-sm col-md-4">
+        <a href="https://www.linkedin.com/in/leo-clarke-a6659a4/">
+          <figure class="w-33">
+            <img class="mw-100" src="/img/linkedin-sqr.png"
+              alt="linkedin">
 
-          <figcaption class="card-header">
-            <h5 class="my-0 font-weight-normal">LinkedIn</h5>
-          </figcaption> </figure>
+            <figcaption class="card-header">
+              <h5 class="my-0 font-weight-normal">LinkedIn</h5>
+            </figcaption>
+          </figure>
+        </a>
       </div>
     </div>
 
+    <div class="row d-flex flex-sm-column flex-md-row
+      justify-content-between
+      m-1"
+      id="bio">
+      <section class="mb-5 d-flex flex-sm-column flex-md-row
+        flex-sm-start
+        flex-md-wrap col-sm-12 col-md-6"
+        id="about me">
+        <!-- todo umbruch in md erst nach Zitat? -->
+        <div id="about-me" class="mr-md-3">
+          <h2 class="h2">about me</h2>
+          <p class="text-justify">I've always been pationate about creating
+            things using my imagination, inspiration and technology. Whether it
+            is music or
+            in this case, turning coffee into code...</p>
+
+          <p class="text-justify">
+            Web development is an exciting intersection of art and design,
+            tech and communication. My desire is to write clear code
+            that looks beautiful to developers and users alike.
+          </p>
+        </div>
+      </section>
 
 
+      <section class="d-flex flex-column col-sm-12 col-md-6"
+        id="cv">
+        <h2 class="">CV</h2>
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td>1999</td>
+              <td>A-Levels, UK</td>
+            </tr>
+            <tr>
+              <td>1999 - 2003</td>
+              <td>BSc Music Technology, UK</td>
+            </tr>
+            <tr>
+              <td>2003 - 2006</td>
+              <td>Project Management, UK</td>
+            </tr>
+            <tr>
+              <td>2006 - 2009</td>
+              <td>Sales &amp; Support, DE</td>
+            </tr>
+            <tr>
+              <td>2011 - 2013</td>
+              <td>Cert 4 Music, AUS</td>
+            </tr>
+            <tr>
+              <td>2013 - current</td>
+              <td>Technical Service, DE</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
 
-
+    <footer class="small ml-1 my-5">
+      &copy; 2019 Leo Clarke
+    </footer>
 
   </body>
 </html>
