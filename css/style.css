@@ -1,0 +1,9 @@
+body {
+  display: grid;
+  padding: 20px;
+  background: papayawhip;
+}
+
+img {
+  border-radius: 5px;
+}
