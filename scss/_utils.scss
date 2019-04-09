@@ -1,0 +1,16 @@
+.bg-dark {
+  background: $dark;
+}
+
+.text-light {
+  color: $light;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.scroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; // smooth scrolling on mobile
+}
